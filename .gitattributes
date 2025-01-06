@@ -1,2 +1,11 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Указываем, что файлы с расширением .java относятся к языку Java
+*.java linguist-language=Java
+
+# Исключаем HTML-файлы из анализа статистики
+*.html linguist-vendored
+
+# Исключаем CSS-файлы из анализа статистики
+*.css linguist-vendored
+
+# Исключаем JavaScript-файлы из анализа статистики
+*.js linguist-vendored
